@@ -1,6 +1,6 @@
 <template>
   <ALayoutHeader>
-    <AMenu v-model:selectedKeys="selectedKeys" theme="dark" mode="horizontal">
+    <AMenu v-model:selectedKeys="selectedKeys" theme="dark" mode="horizontal" class="container mx-auto">
     <AMenuItem key="0">
       <RouterLink :to="{ name: 'Coin.Main' }">
         <span class="nav-text">Монеты</span></RouterLink

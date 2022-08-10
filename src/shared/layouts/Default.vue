@@ -2,7 +2,7 @@
   <ALayout class="page-layout">
     <ALayout>
       <Header />
-      <ALayoutContent class="content">
+      <ALayoutContent class="content container mx-auto">
         <RouterView />
       </ALayoutContent>
     </ALayout>
