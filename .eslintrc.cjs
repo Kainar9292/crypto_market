@@ -13,6 +13,12 @@ module.exports = {
     'vue'
   ],
   rules: {
+    /* TYPESCRIPT */
+    '@typescript-eslint/semi': ['error', 'always'],
+    '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    // '@typescript-eslint/consistent-type-imports': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+
     'no-console': 'off',
     'linebreak-style': ['error', 'windows'], // windows, unix
     'semi': ['error', 'always'],

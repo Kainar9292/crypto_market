@@ -10,7 +10,5 @@
 </template>
 
 <script setup lang="ts">
-import Header from "./../components/Header.vue";
-import { useRoute } from "vue-router";
-const route = useRoute();
+import Header from "@/shared/layouts/Header.vue";
 </script>
