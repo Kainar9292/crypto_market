@@ -9,7 +9,7 @@ export const enum HttpMethod {
 
 export const enum PageName {
   BASE_LAYOUT = 'Default',
-  BASE_HOME = 'Coin.Main',
+  BASE_HOME = 'Home.Main',
   BASE_LOGIN = 'Login',
 
   LOGOUT = 'Logout',
